@@ -4,7 +4,7 @@ from datetime import datetime
 import seaborn as sns
 import numpy as np
 
-sales_train = pd.read_csv('/home/samuel/Work/kaggle/coursera/data/sales_train_v2.csv')
+sales_train = pd.read_csv('.../sales_train_v2.csv')
 
 dates = [i.replace("."," ").split() for i in sales_train["date"]]
 
